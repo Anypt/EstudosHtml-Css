@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*Cabeçalho*/
+.inicio {
+    background-color: #FFBE00;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+	color: white;
+}
+
+
+#inicio {
+    background-color: rgba(248, 248, 248, 0.45);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.opcoes {
+    display: flex;
+}
+
+.opcoes li {
+    margin-left: 10px;
+}
+
+.opcoes li a {
+    display: block;
+    padding: 10px;
+    background-color: rgba(248, 248, 248, 0.45);
+    color: white;
+    font-size: 25px;
+}
