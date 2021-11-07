@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
+* {
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
 }
@@ -48,13 +52,12 @@ li {
 
 .titulo1 {
     background-color: rgba(253, 157, 0, 1.00);
-    margin: 100px 100px 20px 100px;
-    padding: 10px;
     font-family: 'Roboto Mono';
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
+    margin: 30px 100px 20px 60px;
+    padding: 10px;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .frasesdetreinamento {
@@ -62,13 +65,12 @@ li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    max-width: 1120px;
-    margin: 0 auto;
 }
 
 .frasesdetreinamento {
     background-color: rgba(114, 103, 94, 0.93);
     padding: 10px 20px 10px 10px;
+    margin: 0px 100px 20px 100px;
 }
 
 .frasesdetreinamento {
@@ -87,8 +89,8 @@ li {
 
 .titulo2 {
     background-color: rgba(253, 157, 0, 1.00);
-    margin: 0px 100px 30px 100px;
-    padding: 10px 13px;
+    margin: 30px 100px 20px 60px;
+    padding: 10px;
     font-family: 'Roboto Mono';
     font-size: 20px;
     font-style: normal;
@@ -119,3 +121,19 @@ li {
     color: white;
 }
 
+/*receita*/
+
+#RECEITA {
+    color: transparent;
+}
+
+.titulo3 {
+    background-color: rgba(253, 157, 0, 1.00);
+    margin: 0px 100px 30px 100px;
+    padding: 10px 13px;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
