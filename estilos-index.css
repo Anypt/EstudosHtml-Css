@@ -78,3 +78,44 @@ li {
     font-size: 20px;
     color: white;
 }
+
+/*pergunta*/
+
+#GATOOUCACHORRO {
+    color: transparent;
+}
+
+.titulo2 {
+    background-color: rgba(253, 157, 0, 1.00);
+    margin: 0px 100px 30px 100px;
+    padding: 10px 13px;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gatoOuCachorro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 20px 100px;
+}
+
+.gatoOuCachorro {
+    background-color: rgba(114, 103, 94, 0.93);
+    padding: 10px;
+}
+
+#gato {
+    font-size: 30px;
+    color: white;
+}
+
+#cachorro {
+    font-size: 30px;
+    color: white;
+}
+
