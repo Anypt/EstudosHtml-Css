@@ -137,3 +137,20 @@ li {
     font-weight: bold;
     text-align: center;
 }
+
+/*links para o inicio*/
+.linkInicio {
+    background-color: rgba(253, 157, 0, 1.00);
+    padding: 10px;
+    margin-left: 980px;
+    margin-right: 100px;
+}
+
+.linkInicio a {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    background-color:  rgba(248, 248, 248, 0.288);
+    padding: 10px;
+}
