@@ -89,7 +89,7 @@ li {
 
 .titulo2 {
     background-color: rgba(253, 157, 0, 1.00);
-    margin: 30px 100px 20px 60px;
+    margin: 30px 100px 0px 60px;
     padding: 10px;
     font-family: 'Roboto Mono';
     font-size: 20px;
@@ -98,12 +98,30 @@ li {
     text-align: center;
 }
 
+.pergunta {
+    display: block;
+    background-color: rgba(114, 103, 94, 0.93);
+    max-width: 500px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 20em;
+    padding: 10px;
+}
+
+.pergunta h4 {
+    text-align: center;
+    font-family: 'Zen Kurenaido';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
 .gatoOuCachorro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 500px;
-    margin: 20px 100px;
 }
 
 .gatoOuCachorro {
