@@ -172,3 +172,25 @@ li {
     font-weight: bold;
     text-align: center;
 }
+
+.tituloreceita {
+    display: block;
+    vertical-align: center;
+    background-color: rgba(248, 248, 248, 0.288);
+    margin-left: 110px;
+    max-width: 8em;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ingredientes {
+    background-color: rgba(114, 103, 94, 0.93);
+    padding: 10px;
+}
+
+.escrito {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: rgba(214, 212, 212, 0.863);
+}
