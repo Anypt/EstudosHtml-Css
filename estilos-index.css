@@ -139,23 +139,6 @@ li {
     color: white;
 }
 
-/*receita*/
-
-#RECEITA {
-    color: transparent;
-}
-
-.titulo3 {
-    background-color: rgba(253, 157, 0, 1.00);
-    margin: 0px 100px 30px 100px;
-    padding: 10px 13px;
-    font-family: 'Roboto Mono';
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-}
-
 /*links para o inicio*/
 .linkInicio {
     background-color: rgba(253, 157, 0, 1.00);
@@ -171,4 +154,21 @@ li {
     font-size: 17px;
     background-color:  rgba(248, 248, 248, 0.288);
     padding: 10px;
+}
+
+/*receita*/
+
+#RECEITA {
+    color: transparent;
+}
+
+.titulo3 {
+    background-color: rgba(253, 157, 0, 1.00);
+    margin: 0px 100px 30px 100px;
+    padding: 10px 13px;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
 }
