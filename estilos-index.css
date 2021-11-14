@@ -6,6 +6,10 @@
     margin: 0px;
 }
 
+body {
+    background-color: rgba(133, 133, 133, 0.616);
+}
+
 a {
     text-decoration: none;
 }
@@ -85,6 +89,7 @@ li {
 
 #GATOOUCACHORRO {
     color: transparent;
+    margin-top: 150px;
 }
 
 .titulo2 {
@@ -139,6 +144,57 @@ li {
     color: white;
 }
 
+
+/*receita*/
+
+#RECEITA {
+    color: transparent;
+    margin-top: 100px;
+}
+
+.titulo3 {
+    background-color: rgba(253, 157, 0, 1.00);
+    margin: 0px 100px 30px 100px;
+    padding: 10px 13px;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tituloreceita {
+    vertical-align: center;
+    background-color: rgba(248, 248, 248, 0.288);
+    /*margin-left: 110px;*/
+    max-width: 8em;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#tituloreceita2 {
+    max-width: 200px;
+}
+
+.ingredientes {
+    background-color: rgba(114, 103, 94, 0.93);
+    padding: 10px;
+    margin: 0px 100px 30px 100px;
+}
+
+.preparo {
+    background-color: rgba(114, 103, 94, 0.93);
+    padding: 10px;
+    margin: 0px 100px 30px 100px;
+}
+
+.escrito {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: rgb(190, 188, 188);
+}
+
 /*links para o inicio*/
 .linkInicio {
     background-color: rgba(253, 157, 0, 1.00);
@@ -154,43 +210,4 @@ li {
     font-size: 17px;
     background-color:  rgba(248, 248, 248, 0.288);
     padding: 10px;
-}
-
-/*receita*/
-
-#RECEITA {
-    color: transparent;
-}
-
-.titulo3 {
-    background-color: rgba(253, 157, 0, 1.00);
-    margin: 0px 100px 30px 100px;
-    padding: 10px 13px;
-    font-family: 'Roboto Mono';
-    font-size: 30px;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-}
-
-.tituloreceita {
-    display: block;
-    vertical-align: center;
-    background-color: rgba(248, 248, 248, 0.288);
-    margin-left: 110px;
-    max-width: 8em;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-}
-
-.ingredientes {
-    background-color: rgba(114, 103, 94, 0.93);
-    padding: 10px;
-}
-
-.escrito {
-    font-family: 'Roboto Mono';
-    font-weight: bold;
-    color: rgba(214, 212, 212, 0.863);
 }
