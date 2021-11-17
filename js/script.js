@@ -58,12 +58,42 @@ console.log ("no js para por um comentario de apenas uma linha usamos //aqui pod
 
 function mensagem () {
     var bemvindo = "bem vindo ao console"; 
-//PAREI EM CONDIÇÕES DAS FUNCTION
-    console.log(bemvindo);
+    var naobemvindo = "seja bem vindo ao inferno";
+    var conteudo = true;
+    //  cria uma especie de condição
+    if (conteudo === true) {
+        console.log (bemvindo)
+    } else /*se não for true/verdadeiro isso acontecerá*/ {
+        console.log (naobemvindo)
+    }
 }
 
 //para executar uma função precisamos chama-la, assim:
 //"nome da função"();
-
   mensagem(); 
 
+
+
+//LOOPS
+/* 
+    os loops permite que a gente repita o codigo
+*/
+        //para indicar um conjunto de itens usamos os colchetes e dentro colocamos cada item entre aspas e separados por virgula
+var nome = ["Miguel", "Biana", "Luiz", "Nicole", "Yasmim" ]
+
+            //entre parenteses está o argumento da mensagem
+function mensagem2(nome) {
+    console.log("Olá, " + nome)
+}
+
+nome.forEach (function(valor){
+    mensagem2 (valor)
+})
+
+//OBJETOS 
+
+/*
+    Os objetos são um tipo de objeto especial
+*/
+
+ 
