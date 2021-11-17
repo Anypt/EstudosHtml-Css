@@ -58,6 +58,7 @@ console.log ("no js para por um comentario de apenas uma linha usamos //aqui pod
 
 function mensagem () {
     var bemvindo = "bem vindo ao console"; 
+//PAREI EM CONDIÇÕES DAS FUNCTION
     console.log(bemvindo);
 }
 
